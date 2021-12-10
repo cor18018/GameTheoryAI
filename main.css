@@ -1,18 +1,15 @@
 body {
-    height: 800px;
     background: black;
-
 }
 main {
-    padding: 10em;
+    padding-top: 5em;
     position: relative;
     margin: 0 auto;
     text-align: center;
 }
-canvas {
-    
-}
 button {
     position: absolute;
-    bottom: 1em;
+    bottom: -2em;
+    right: 54em;
+    margin-top: 2em;
 }

@@ -14,7 +14,7 @@ let human = 'O';
 let player = human;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(400, 400);
   w = width / 3;
   h = height / 3;
   bestMove();
@@ -113,7 +113,7 @@ function draw() {
     
 
     if (result == 'tie') {
-      resultP.html('Tie');
+      resultP.html('Cats Game!');
     } else {
       resultP.html(`${result} is the winner.`);
     }
